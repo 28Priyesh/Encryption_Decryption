@@ -103,13 +103,13 @@ def Reset():
     Result.set("")
 btnTotal = Button(f1, padx=16, pady=8, bd=16, fg="black",
                   font=('arial', 16, 'bold'), width=10,
-                  text="Show Message", bg="green",
+                  text="Show Message", bg="light green",
                   command=Results).grid(row=7, column=1)
 
 
 btnReset = Button(f1, padx=16, pady=8, bd=16,
                   fg="black", font=('arial', 16, 'bold'),
-                  width=10, text="Reset", bg="powder blue",
+                  width=10, text="Reset", bg="blue",
                   command=Reset).grid(row=7, column=2)
 
 
